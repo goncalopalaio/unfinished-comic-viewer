@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  cover_image: MyString
+  latest_update: 2016-03-14 15:12:43
+  finished: false
+
+two:
+  title: MyString
+  cover_image: MyString
+  latest_update: 2016-03-14 15:12:43
+  finished: false

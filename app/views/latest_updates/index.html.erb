@@ -1,0 +1,49 @@
+
+
+<div class="columns is-multiline">
+<% @latest.each do |series|%>
+<div class="column is-quarter">
+
+
+    <div class="card">
+      <div class="card-image">
+        <a href="/i/series/<%=series.eden_id%>">
+        <figure class="image is-4by3">
+          <%= image_tag series.cover_image.url(:large) %>
+        </figure>
+        </a>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-32x32">
+              <%= image_tag series.cover_image.url(:thumb) %>
+            </figure>
+          </div>
+          <div class="media-content">
+            <a href="/i/series/<%=series.eden_id%>">
+              <p class="title is-5"><%= series.title %></p>
+            </a>
+
+            <div class="subtitle is-6">
+              <% series.tags.each do |tag|%>
+                  <span><%= tag.name %></span>
+              <%end%>
+            </div>
+            <small><%= series.latest_update%></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+<%end%>
+
+
+
+
+
+</div>

@@ -1,0 +1,9 @@
+<h1>ChapterPages#index</h1>
+<p>Find me in app/views/chapter_pages/index.html.erb</p>
+
+
+<% @pages.each do |page|%>
+  <%=page.number%>
+
+  <%= image_tag page.url %>
+<%end%>
