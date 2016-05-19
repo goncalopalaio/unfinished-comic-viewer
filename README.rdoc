@@ -6,3 +6,8 @@ Mostly built to try out React.js so it is really thrown together and incomplete.
 - Frontend is handled with React
 - Data is sourced from mangaeden
 - The db is populated using a cli task (see unfinished-comic-viewer/app/helpers/eden_helper.rb)
+
+
+
+
+http://i.imgur.com/jBX0uTu.jpg
